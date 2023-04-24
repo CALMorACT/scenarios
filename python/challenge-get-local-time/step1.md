@@ -32,7 +32,7 @@ city = "New York"
 
 ## Note
 
-Your program must take as input the name of a city in the world.
-Your program must connect to an API to retrieve timezone information.
-Your program must use the timezone information to calculate the local time in the given city.
-Your program must output the local time in the given city in a readable format.
+- Your program must take as input the name of a city in the world.
+- Your program must connect to an API to retrieve timezone information. You can use `requests` to connect to the API and the `pytz` library to convert tha data to the timezone
+- Your program must use the timezone information to calculate the local time in the given city. You can use `datetime` to calculate the local time.
+- Your program must output the local time in the given city in a readable format.
