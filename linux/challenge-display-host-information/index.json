@@ -1,0 +1,66 @@
+{
+  "type": "challenge",
+  "title": "Display Host Information",
+  "description": "In this challenge, you will learn how to display the system information on the host machine.",
+  "difficulty": "Beginner",
+  "time": 10,
+  "details": {
+    "steps": [
+      {
+        "title": "Display System Date",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Please replace this text with the target of the verify script",
+            "file": "verify1.sh",
+            "hint": "use the date command",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["linux/date"],
+        "solutions": ["step1-solution.md"]
+      },
+      {
+        "title": "Display System Information",
+        "text": "step2.md",
+        "verify": [
+          {
+            "name": "Please replace this text with the target of the verify script",
+            "file": "verify2.sh",
+            "hint": "Please replace this text with the hint of the verify script",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["linux/uname"],
+        "solutions": ["step2-solution.md"]
+      },
+      {
+        "title": "Display the System's Hostname",
+        "text": "step3.md",
+        "verify": [
+          {
+            "name": "Please replace this text with the target of the verify script",
+            "file": "verify3.sh",
+            "hint": "Please replace this text with the hint of the verify script",
+            "timeout": 0,
+            "showstderr": false
+          }
+        ],
+        "skills": ["linux/hostname"],
+        "solutions": ["step3-solution.md"]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2204"
+  }
+}
