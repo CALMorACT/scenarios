@@ -11,11 +11,11 @@
         "text": "step1.md",
         "verify": [
           {
-            "name": "Test the implement of get_local_time",
+            "name": "Test the implementation of get_local_time",
             "file": "verify1.sh",
             "hint": "Please replace this text with the hint of the verify script",
             "timeout": 0,
-            "showstderr": false
+            "showstderr": true
           }
         ],
         "skills": ["python/datetime", "python/pytz", "python/requests"],

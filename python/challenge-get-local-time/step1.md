@@ -1,4 +1,4 @@
-# Step 1 Get Local Time
+# Get Local Time
 
 Your program should connect to the API `http://worldtimeapi.org/api/timezone/Europe/{city}`, retrieve the timezone information for the specified city, and calculate the local time in the specified city. The output should look something like :
 
